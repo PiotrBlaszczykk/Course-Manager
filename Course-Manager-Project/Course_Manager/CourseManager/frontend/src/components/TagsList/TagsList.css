@@ -1,0 +1,144 @@
+.edit-tags-subsite {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    font-family: Arial, sans-serif;
+}
+
+.edit-tags-subsite__title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.edit-tags-subsite__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.edit-tags-subsite__controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.edit-tags-subsite__filter-button,
+.edit-tags-subsite__search-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.edit-tags-subsite__filter-button:hover,
+.edit-tags-subsite__search-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.edit-tags-subsite__filter-button:active,
+.edit-tags-subsite__search-button:active {
+    background-color: #004085;
+    transform: translateY(0);
+}
+
+.edit-tags-subsite__add-button.add {
+    background-color: #28a745;
+}
+
+.edit-tags-subsite__add-button.add:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+.edit-tags-subsite__add-button.cancel {
+    background-color: #dc3545;
+}
+
+.edit-tags-subsite__add-button.cancel:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+}
+
+.edit-tags-subsite__filters {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #f7f8fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.edit-tags-subsite__add-tag-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f7f8fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.edit-tags-subsite__add-tag-form input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #333;
+}
+
+.edit-tags-subsite__submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-tags-subsite__submit-button:hover {
+    background-color: #0056b3;
+}
+
+.edit-tags-subsite__stats {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+}
+
+.edit-tags-subsite__results {
+    background: #f7f8fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #666;
+    min-height: 100px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
