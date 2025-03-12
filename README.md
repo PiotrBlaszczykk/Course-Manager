@@ -1,4 +1,4 @@
-# ROMPER MEGAMOCNY
+# Course Manager
 
 Piotr Błaszczyk, Piotr Branewski, Krzysztof Swędzioł, Michał Plaza
 
