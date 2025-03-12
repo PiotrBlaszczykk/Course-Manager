@@ -1,0 +1,30 @@
+.AvailableCourses-container {
+    padding: 1rem;
+}
+
+.AvailableCourses-container {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    min-height: 100vh;
+}
+
+.AvailableCourses-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: center;
+    padding: 0px;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.welcome-message {
+    color: black; /* Zmieniamy kolor tekstu na czarny */
+    font-size: 1.5rem; /* Opcjonalnie, zmiana rozmiaru czcionki */
+    margin-bottom: 1rem; /* Dodanie odstępu pod tekstem */
+}
+

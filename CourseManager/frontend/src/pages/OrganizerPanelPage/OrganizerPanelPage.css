@@ -1,0 +1,47 @@
+.organizer-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f7f8fa;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.organizer-panel__title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.organizer-panel__options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.organizer-panel__button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.organizer-panel__button:hover {
+    background-color: #0056b3;
+}
+
+.organizer-panel__welcome {
+    color: black; /* Zmieniamy kolor tekstu na czarny */
+    font-size: 1.5rem; /* Opcjonalnie, zmiana rozmiaru czcionki */
+    margin-bottom: 1rem; /* Odstęp od pozostałych elementów */
+}
+
